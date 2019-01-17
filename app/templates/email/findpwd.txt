@@ -1,0 +1,3 @@
+hello {{ username }}
+请点击右边的连接找回密码
+{{ url_for('users.acfpwd',username=username,token=token,_external=True) }}找回密码
